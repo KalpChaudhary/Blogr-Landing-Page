@@ -1,0 +1,19 @@
+{
+  "name": "blogr_landing_page",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "Kalp Chaudhary",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
